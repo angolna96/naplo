@@ -1,0 +1,68 @@
+.root{
+    -fx-background-color: #FEB2AD;
+    -fx-font-family: Arial, sans-serif;
+    -fx-font-size: 13px;
+}
+
+.label{
+    -fx-text-fill: #0D0D0D;
+
+}
+
+.button{
+    -fx-background-color: #218DA6;
+    -fx-text-fill: #FFFFF0;
+    -fx-font-weight: bold;
+}
+
+.choice-box .context-menu{
+    -fx-background-color: #BAF2E8;
+}
+
+.choice-box .context-menu .label{
+    -fx-text-fill: #0D0D0D;
+}
+
+.choice-box .menu-item:focused {
+    -fx-background-color: #F56358;
+
+}
+
+.choice-box .menu-item:focused .label{
+    -fx-text-fill: #FFFFF0;
+}
+
+.choice-box{
+    -fx-background-color: #218DA6;
+}
+
+.choice-box .label{
+    -fx-text-fill: #FFFFF0;
+}
+
+.list-view{
+    -fx-background-color: #218DA6;
+    -fx-border-color: #FFFFF0;
+}
+
+.list-cell:odd{
+    -fx-background-color: #218DA6;
+}
+
+.list-cell:even{
+    -fx-background-color: #BAF2E8;
+}
+
+.list-cell:even:filled {
+    -fx-text-fill: #0D0D0D;
+}
+
+.list-cell:odd:filled {
+     -fx-text-fill: #FFFFF0;
+ }
+
+.text-field{
+    -fx-background-color: #FFFFF0;
+    -fx-text-color: #218DA6;
+}
+
